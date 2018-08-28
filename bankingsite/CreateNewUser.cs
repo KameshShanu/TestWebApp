@@ -20,9 +20,9 @@ namespace bankingsite
         [Test]
         public void UserAddedOK()
         {
-            // var instance = new SelenoHost();
-            // instance.Run("", 54881);
-            Thread.Sleep(5000);
+            //var instance = new SelenoHost();
+            //instance.Run("WebApplication", 54881);
+            //Thread.Sleep(5000);
 
             var registerMenulink = Host.Instance.Application.Browser.FindElement(By.Id("registerLink"));
             registerMenulink.Click();
@@ -42,28 +42,21 @@ namespace bankingsite
             rgisterbtn.Click();
 
             Thread.Sleep(2000);
-
         }
 
-
         [Test]
-
         public void WithPageObjects()
         {
             Thread.Sleep(2000);
-
             HomePage homepage = Host.Instance.NavigateToInitialPage<HomePage>();
 
             //NewOrderPage newOrderPage = homepage.GoToNewOrder();
-
             NewUserPage newuser = homepage.GoToNewUser();
             newuser.navigateregistrelink();
             newuser.email = "test@gh.com";
             newuser.password = "test";
             newuser.conformpassword = "test";
             newuser.submit();
-
-
         }
 
         [Test]
@@ -86,6 +79,5 @@ namespace bankingsite
             };
             newuser.creatnewUser(newusertocreate);
         }
-
     }
 }
