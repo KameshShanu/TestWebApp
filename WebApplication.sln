@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{7EA97CAC-7B31-42D8-90B7-DEE92F5EB7E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bankingsite", "bankingsite\bankingsite.csproj", "{887F0E91-B05D-4417-BC51-ED514928506E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject", "CodedUITestProject\CodedUITestProject.csproj", "{9628D70E-343F-4129-83AD-BDB0AC54BD41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,15 @@ Global
 		{7EA97CAC-7B31-42D8-90B7-DEE92F5EB7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA97CAC-7B31-42D8-90B7-DEE92F5EB7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA97CAC-7B31-42D8-90B7-DEE92F5EB7E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{887F0E91-B05D-4417-BC51-ED514928506E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{887F0E91-B05D-4417-BC51-ED514928506E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{887F0E91-B05D-4417-BC51-ED514928506E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{887F0E91-B05D-4417-BC51-ED514928506E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9628D70E-343F-4129-83AD-BDB0AC54BD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9628D70E-343F-4129-83AD-BDB0AC54BD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9628D70E-343F-4129-83AD-BDB0AC54BD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9628D70E-343F-4129-83AD-BDB0AC54BD41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C5DB90C-4531-49E8-8C05-C5CE70A1CD4D}
 	EndGlobalSection
 EndGlobal
